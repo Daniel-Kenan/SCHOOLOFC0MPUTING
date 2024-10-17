@@ -14,6 +14,14 @@ const lecturers = [
     image: "https://media.nextgensell.com/files/hos.png"
   },
   {
+    id: 1,
+    name: "Ms. Lilly Kunene",
+    position: "Admin Assistant",
+    department: "Computing",
+    image: "https://media.nextgensell.com/files/ump/lilly.jpg"
+  },
+  
+  {
     id: 2,
     name: "Prof. Kalema",
     position: "Professor",
@@ -25,49 +33,49 @@ const lecturers = [
     name: "Dr. Norwell Zhakata ",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/c.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Zhaka.jpg"
   },
   {
     id: 3,
     name: "Dr. Olalekan Samuel Ogunleye",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/d.png"
+    image: "https://media.nextgensell.com/files/ump/Dr%20O.png"
   },
   {
     id: 4,
     name: "Dr. Hope Mauwa",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/e.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Hope.png"
   },
   {
     id: 4,
     name: "Dr. Motselisi Chere",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/f.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Chere.png"
   },
   {
     id: 4,
     name: "Dr. Blessing Maoneke",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/g.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Maoneke.png"
   },
   {
     id: 4,
     name: "Dr.Tanki Motsepe ",
     position: "Lecturer",
     department: "Mathemetics",
-    image: "https://media.nextgensell.com/files/ump/h.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Tankie.jpg"
   },
   {
     id: 4,
     name: "Dr. Yeyisani Makhubele",
     position: "Lecturer",
     department: "Mathematics",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Yeyisane.png"
   }
   ,
   {
@@ -75,7 +83,7 @@ const lecturers = [
     name: "Dr. Phumzile Mseteka",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/i.jpg"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Phumzile.png"
   }
   ,
   {
@@ -83,28 +91,28 @@ const lecturers = [
     name: "Dr. Yves Semegni",
     position: "Lecturer",
     department: "Mathematics",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Dr%20Yves.jpeg"
   },
   {
     id: 4,
     name: "Dr. Oluwaseun Awosejo",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Olu.png"
   } ,
   {
     id: 4,
     name: "Ms. Masuku",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Masuku.jpg"
   } ,
   {
     id: 4,
     name: "Mr. Rivalani Hlangwani",
     position: "Lecturer",
     department: "Chemistry",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Mr%20Riva.jpg"
   } 
   ,
 
@@ -113,21 +121,21 @@ const lecturers = [
     name: "Mr. Charlie Ndlovu",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Mr%20Ndlovu.jpg"
   } ,
   {
     id: 4,
     name: "Ms. Issah Ngomane",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Ms%20Ngomane.jpg"
   } ,
   {
     id: 4,
     name: "Ms. Phumla Sithole",
     position: "Lecturer",
     department: "Mathematics",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Pumla.jpg"
   } 
 ,
   {
@@ -135,7 +143,7 @@ const lecturers = [
     name: "Ms. Temhlanga Malindzisa",
     position: "Lecturer",
     department: "Computing",
-    image: "https://media.nextgensell.com/files/ump/h.png"
+    image: "https://media.nextgensell.com/files/ump/Temhla.png"
   } 
 ,
 {
@@ -143,16 +151,43 @@ const lecturers = [
   name: "Ms. Precious Leutle",
   position: "ATSP and Associate Lecturer",
   department: "Computing",
-  image: "https://media.nextgensell.com/files/ump/h.png"
+  image: "https://media.nextgensell.com/files/ump/Precious.jpg"
 } ,
 
 {
   id: 4,
-  name: "Mr. A",
+  name: "Mr. Armstrong Makome",
   position: "ATSP and Associate Lecturer",
   department: "Computing",
-  image: "https://media.nextgensell.com/files/ump/h.png"
+  image: "https://media.nextgensell.com/files/ump/Mr%20Makome.png"
+},
+
+{
+  id: 4,
+  name: "Mr. Percy Ndlovu",
+  position: "Associate Lecturer",
+  department: "Computing - Siyabuswa",
+  image: "https://media.nextgensell.com/files/ump/percy.png"
 } 
+,
+
+{
+  id: 4,
+  name: "Mr. Sanele Dlamini",
+  position: "Lecturer",
+  department: "Physics",
+  image: "https://media.nextgensell.com/files/ump/percy.png"
+} ,
+
+{
+  id: 4,
+  name: "Mr. Kgomotso Tlhong",
+  position: "Lecturer",
+  department: "Communication Studies",
+  image: "https://media.nextgensell.com/files/ump/percy.png"
+} 
+
+
 
 
 
@@ -175,7 +210,7 @@ export default function Component() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl font-bold text-[#242853] mb-4">School Of Computing</h1>
-          <span className="text-2xl font-bold text-[#242853] mb-4">2024 Members</span><br />
+          <span className="text-2xl font-bold text-[#242853] mb-4">2024 Staff Members</span><br />
           <div className="w-32 h-1 bg-yellow-500 mx-auto"></div>
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
@@ -209,6 +244,11 @@ export default function Component() {
               </Card>
             </motion.div>
           ))}
+
+
+
+
+
         </div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -223,77 +263,20 @@ export default function Component() {
           <p className="text-center text-lg font-semibold">- Albert Einstein </p>
         </motion.div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   )
 }
 
-
-/*
-
-
-
-DS
-Dr Yves Semegni
-Senior Lecturer: Mathematics
-Member
-
-DZ
-Dr. Norwell Zhakata
-Lecturer
-Member
-
-DM
-Duduzile Masuku
-Lecturer
-Member
-
-IN
-Issah Ngomane
-LECTURER IN ICT
-Member
-
-KT
-Kgomotso Tlhong
-Lecturer in Communication Studies
-Member
-
-OA
-Oluwaseun Awosejo
-Temporary Lecturer
-Member
-
-PS
-Phumla Sithole
-Lecturer in Mathematics
-Member
-
-PL
-Precious Leutle
-Academic Talent Stewardship Programme Fellow and Associate Lecturer
-Member
-
-Prof Ntombovuyo.Wayi-Mgwebi
-Prof Ntombovuyo.Wayi-Mgwebi
-Associate Professor in Information Communication Technology
-Member
-
-Ripfumelo Ndhlovu
-Ripfumelo Ndhlovu
-Lecturer
-Member
-
-Rivalani Hlangwani
-Rivalani Hlangwani
-Lecturer
-Member
-
-SD
-Sanele Dlamini
-Lecturer in Physics
-Member
-
-TM
-Temhlanga Malindzisa
-Associate Lecturer
-
-*/
