@@ -5,7 +5,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { QuoteIcon, Home, Book, Users, Info } from "lucide-react"
+import { QuoteIcon, Home, Book, Users, Info, LucideIcon } from "lucide-react"
+
+
+
 
 const lecturers = [
   {
