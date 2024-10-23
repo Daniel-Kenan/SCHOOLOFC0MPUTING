@@ -261,8 +261,9 @@ export default function StaffDirectory() {
           >
             <QuoteIcon className="w-16 h-16 text-yellow-500 mb-6 mx-auto" />
             <blockquote className="text-2xl text-center italic mb-6">
-              "It's not that I am so smart, it is just that I stay with my problems longer."
-            </blockquote>
+  &quot;It&apos;s not that I am so smart, it is just that I stay with my problems longer.&quot;
+</blockquote>
+
             <p className="text-center text-lg font-semibold">- Albert Einstein </p>
           </motion.div>
         </div>
